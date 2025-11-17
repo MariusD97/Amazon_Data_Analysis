@@ -75,15 +75,20 @@ All SQL scripts are available in:
 
 ## 📊 Power BI Dashboard
 
-The MySQL database was connected to Power BI to visualize KPIs and document compliance rates.  
-The dashboard includes:
+The MySQL database was imported into Power BI to create an interactive dashboard for tracking carrier compliance and document risks.
 
-- Expired vs. valid document metrics  
-- Risk percentage cards  
-- Marketplace and carrier breakdowns  
-- Trend visuals for document renewal  
+The dashboard provides:
+- Expired vs. valid document KPIs  
+- High-risk percentage cards  
+- Marketplace and carrier-level drill-downs  
+- Trend visuals for upcoming document renewals  
+- Filters for document type, marketplace, and risk level  
 
-Power BI file: [PowerBI/project_dashboard.pbix](PowerBI/project_dashboard.pbix)
+Data modeling included relationships between companies, audits, and documents, along with DAX measures for dynamic KPIs.
+
+Power BI file:  
+📄 **PowerBI/project_dashboard.pbix**
+
 
 ---
 

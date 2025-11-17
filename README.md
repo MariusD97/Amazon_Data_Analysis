@@ -56,15 +56,20 @@ They were converted to proper SQL `DATE` using the script [SQL/data_cleaning.sql
 
 ## 🧠 SQL Queries
 
-A collection of analytical queries was created to extract insights from the data, such as:
+A series of SQL scripts were created to replicate real auditing logic from Amazon’s carrier compliance workflow.  
+These queries demonstrate essential SQL concepts and generate the analytical outputs used later in Power BI.
 
-- Carriers and their document status  
-- High-risk companies with multiple expired policies  
-- Expiry tracking and document renewal alerts  
-- Marketplace-level compliance summary  
+### Examples of analysis performed:
+- Retrieve each carrier with the status of their RCA, CMR, and Operating License  
+- Identify high-risk carriers based on expired or missing documents  
+- Track upcoming document expirations using date functions  
+- Categorize audit performance using `CASE` logic  
+- Use subqueries to find the slowest or fastest cases  
+- Calculate marketplace-level KPIs (high-risk %, average days to close)  
+- Aggregate and group data for compliance summaries  
 
-All queries are included in:  
-[SQL/queries.sql](SQL/queries.sql)
+All SQL scripts are available in:  
+📄 **[SQL/queries.sql](SQL/queries.sql)**
 
 ---
 

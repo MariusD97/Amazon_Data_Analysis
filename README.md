@@ -42,7 +42,7 @@ You can find the schema and relationships in:
 ## 🧹 Data Cleaning
 
 The Excel date columns were originally stored as numeric serials.  
-They were converted to proper SQL `DATE` using the script [sql_scripts/01_data_cleaning.sql](SQL/data_cleaning.sql) to ensure accurate time-based analysis in Power BI.
+They were converted to proper SQL `DATE` using the script [SQL/data_cleaning.sql](SQL/data_cleaning.sql) to ensure accurate time-based analysis in Power BI.
 
 **Steps performed in `01_data_cleaning.sql`:**
 

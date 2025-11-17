@@ -87,7 +87,8 @@ The dashboard provides:
 Data modeling included relationships between companies, audits, and documents, along with DAX measures for dynamic KPIs.
 
 Power BI file:  
-📄 **PowerBI/project_dashboard.pbix**
+📄 [📄 Power BI Dashboard File](PowerBI/project_dashboard.pbix)
+
 
 
 ---

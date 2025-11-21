@@ -18,6 +18,76 @@ The analysis helps identify:
 - Carriers with high or low compliance rates  
 - Risk trends by marketplace or document type  
 
+## 📘 Case Study: Real-World Workflow Simulation
+
+### 🔍 1. Problem Overview  
+In my real role as a **Document Auditor for Amazon transport carriers**, I validate insurance documents and operating licenses submitted by hundreds of companies.  
+Common issues include:
+
+- expired or missing documents  
+- inconsistent submissions  
+- manual reviews that slow down the process  
+- limited visibility on risk levels  
+
+This project reproduces that workflow and transforms it into a clean, automated analytics system.
+
+---
+
+### 🎯 2. Objective  
+Design an end-to-end solution that:
+
+- centralizes carrier, document, and audit information  
+- automatically identifies expired or missing documents  
+- highlights high-risk carriers  
+- evaluates auditor performance  
+- provides a clear reporting dashboard using Power BI  
+
+---
+
+### 🔧 3. Process Summary
+
+#### **Data Cleaning**
+- Converted Excel serial dates to SQL `DATE`  
+- Removed invalid placeholders (e.g., `1899-12-30`)  
+- Standardized document fields and fixed missing values  
+
+#### **Database Design (MySQL)**
+- Three main tables: `companies`, `documents`, `audits`  
+- Includes primary keys, foreign keys, and indexing  
+- Ensures clean relational structure and high-quality queries  
+
+#### **SQL Logic**
+- Detect expired/missing RCA, CMR, OL  
+- Identify documents expiring in the next 30 days  
+- Classify high-risk carriers  
+- Calculate compliance KPIs  
+- Measure auditor performance (speed & case quality)
+
+#### **Power BI Dashboard**
+- Compliance overview cards  
+- Document expiration KPIs  
+- Marketplace-level risk comparison  
+- Auditor performance insights  
+- Fully interactive filters and drill-downs  
+
+---
+
+### 📊 4. Key Insights  
+- **84% compliance rate** across all carriers  
+- **151 expired documents** currently active  
+- **France** has the highest non-compliance levels  
+- **31 RCA** and **30 CMR** expiring within 30 days  
+- Auditor performance varies by speed and non-compliance rate  
+
+---
+
+### 🧭 5. Impact  
+This project simulates Amazon’s real audit workflow and turns a manual, repetitive process into a structured analytics system that:
+
+- improves visibility  
+- reduces operational risk  
+- highlights performance differences  
+- enables better decision-making  
 ---
 
 ## 🗄️ Database Design (MySQL)

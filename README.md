@@ -88,16 +88,6 @@ Data modeling included relationships between companies, audits, and documents, a
 
 Power BI file:  
 [📄 Power BI Dashboard File](PowerBI/Project_v1.pbix)
-
----
-
-## 🧾 Documentation
-
-All development steps (schema creation, importing tables, adding indexes, primary keys, and relationships) are documented in:
-
-- [SQL/documentation.xlsx](SQL/documentation.xlsx)  
-- [notes/development_steps.md](notes/development_steps.md)
-
 ---
 
 ## ⚙️ Tools Used
@@ -106,15 +96,6 @@ All development steps (schema creation, importing tables, adding indexes, primar
 - **Power BI Desktop** – data visualization and reporting  
 - **Excel** – data documentation and tracking  
 - **GitHub** – project version control and portfolio hosting  
-
----
-
-## 🚀 Future Improvements
-
-- Add DAX measures to calculate dynamic KPIs  
-- Implement data refresh automation for live updates  
-- Extend schema to include audit team performance metrics  
-
 ---
 
 ## 👤 Author

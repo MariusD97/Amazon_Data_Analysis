@@ -147,6 +147,19 @@ All SQL scripts are available in:
 
 The MySQL database was imported into Power BI to create an interactive dashboard for tracking carrier compliance and document risks.
 
+### Dashboard Highlights
+
+Here are some key screenshots from the interactive dashboard:
+
+![Document Compliance & Expiry](PowerBI/screenshots/Document Compliance & Expiry.png)
+*Document compliance and upcoming expirations*
+
+![Overview - KPI Dashboard](PowerBI/screenshots/Overview - KPI Dashboard.png)
+*Overall KPI summary and high-level insights*
+
+For the full interactive experience, open the Power BI file: [Amazon_Data_Analysis.pbix](PowerBI/Amazon_Data_Analysis.pbix)
+
+
 The dashboard provides:
 - Expired vs. valid document KPIs  
 - High-risk percentage cards  
@@ -157,7 +170,7 @@ The dashboard provides:
 Data modeling included relationships between companies, audits, and documents, along with DAX measures for dynamic KPIs.
 
 Power BI file:  
-[📄 Power BI Dashboard File](PowerBI/Project_v1.pbix)
+[📄 Power BI Dashboard File](PowerBI/Amazon_Data_Analysis.pbix)
 ---
 
 ## ⚙️ Tools Used

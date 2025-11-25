@@ -75,9 +75,27 @@ Design an end-to-end solution that:
 ### 📊 4. Key Insights  
 - **84% compliance rate** across all carriers  
 - **151 expired documents** currently active  
-- **France** has the highest non-compliance levels  
-- **31 RCA** and **30 CMR** expiring within 30 days  
-- Auditor performance varies by speed and non-compliance rate  
+
+### Country-Level Insights
+- 🟡 **Italy – Highest Case Volume**  
+  228 cases (≈48% of total)
+
+- 🔴 **France – Slowest Resolution**  
+  Average Days to Close: 16.86
+
+- 🔴 **Italy – Highest Non-Compliance**  
+  Non-Compliance Rate: 61.4%
+
+- 🟢 **Spain – Most Balanced Performance**  
+  Stable volume, compliance & resolution speed  
+
+### User-Level Insights
+- 📈 **Highest Volume:** MihaiD and GabrielaA handle the majority of cases (245 out of 481, or 51% of total audits)  
+- 📉 **Lowest Volume:** CiprianA audited the fewest cases (22)  
+- 🐌 **Slowest:** PetronelaN takes the longest to close cases (23.05 days on average)  
+- ✅ **Highest Compliance Rate:** MihaiD achieved the best quality with only 0.81% Non-Compliant cases  
+- 🛑 **Lowest Compliance Rate (Excluding Anomaly):** PetronelaN has the highest rate of non-compliance (39.02%)  
+- ⚡️ **Fastest (Most Efficient):** MihaiD resolves cases in an average of 3.33 days, the quickest in the team
 
 ---
 

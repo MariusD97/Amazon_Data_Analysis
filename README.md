@@ -151,10 +151,10 @@ The MySQL database was imported into Power BI to create an interactive dashboard
 
 Here are some key screenshots from the interactive dashboard:
 
-![Document Compliance & Expiry](PowerBI/screenshots/Document Compliance & Expiry.png)
+![Document Compliance & Expiry](PowerBI/screenshots/Document_Compliance_Expiry.png)
 *Document compliance and upcoming expirations*
 
-![Overview - KPI Dashboard](PowerBI/screenshots/Overview - KPI Dashboard.png)
+![Overview - KPI Dashboard](PowerBI/screenshots/Overview_KPI_Dashboard.png)
 *Overall KPI summary and high-level insights*
 
 For the full interactive experience, open the Power BI file: [Amazon_Data_Analysis.pbix](PowerBI/Amazon_Data_Analysis.pbix)
